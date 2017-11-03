@@ -4,5 +4,5 @@ function findMatching(array, name) {
 }
 
 function fuzzyMatch(array, letters) {
-  
+  let letterLength = letters.length
 }
