@@ -7,3 +7,7 @@ function fuzzyMatch(array, letters) {
   let letterLength = letters.length;
   return array.filter(function(driver) { return driver.slice(0, letterLength) === letters })
 }
+
+function matchName(array, name) {
+  return array.filter(function(driver) { return driver.name === name })
+}
